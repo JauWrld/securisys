@@ -38,6 +38,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 body {
@@ -100,6 +101,9 @@ main {
     width: 100%;
     max-width: 600px;
 }
+.article img{
+    width: 560px;
+}
 
 
 footer {
@@ -108,4 +112,36 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+.ban-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+.icon-social{
+    display: block;
+    padding-left: 200px;
+
+}
+.ligne{
+    display: flex;
+    padding-left: 200px;
+}
+.admin{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.tel{
+    padding-top: 5px;
+    padding-left: 12px;
+
+}
+.menu-lateral{
+    display: flex;
+    gap: 25px;
+}
+.menu-lateral a{
+    text-decoration: none;
+    
 }
