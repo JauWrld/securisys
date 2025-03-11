@@ -143,5 +143,25 @@ footer {
 }
 .menu-lateral a{
     text-decoration: none;
-    
+    color: black;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 15px;
+}
+.div1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    justify-content: center;
+    width: 70vw;
+    flex-wrap: wrap;
+    margin: 0px auto;    
+
+}
+.card{
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.card img{
+    object-fit: cover;
 }
