@@ -157,11 +157,29 @@ footer {
     flex-wrap: wrap;
     margin: 0px auto;    
 
+} 
+.animation{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
 }
 .card{
     font-size: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 20px;
+    background-color:rgb(255, 242, 227);
+    padding: 20px;
 }
 .card img{
     object-fit: cover;
+}
+.to{
+    grid-column: span 2; 
+    text-align: center;
+    width: 505px;
+    margin-left: 280px;
+}
+.footer{
+    display: flex;
 }
