@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu-superieur">
+              <span><a class="gauche" href="mot-dg.html">Mot du DG</a></span>
+              <span><a class="gauche" href="somme-nous.html">Qui sommes nous ?</a></span>
+              <span><a class="gauche" href="apres-vente.html">Un SAV</a></span>           
+                   
+       </div>
+    </div> 
+  
+  
+    <header>
+   <!-- <a href="#" class="logo">LOGO</a> -->
+    <img src="img/logo_securisys.jpg" width="200px" alt="gallery">
+    <div class="menuToggle"></div>
+    
+  
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-item"><a href="index.html"> <ion-icon name="home-outline"> </ion-icon>Accueil </ion-icon></a></li>
+        <li class="menu-item"><a href="#">Sécurité Incendie 
+        <i class="fas fa-angle-down"></i> </a> 
+         <ul>
+           <li><a class="selection1" href="securite-automatique.html">Sécurité Icendie Automatique</a></li>
+           <li><a class="selection1" href="securite-traditionneelle.html">Sécurité Incendie Traditionnelle</a></li>
+           <li><a class="selection1" href="coupe-feu.html">Structures Coup-Feu</a></li> 
+         </ul> 
+        </li>
+  
+        <li class="menu-item"><a href="#">Sécurité Electronique </br>et Sûrété <i class="fas fa-angle-down"></i></a>
+           <ul>
+               <li><a class="selection2" href="securite-electronique.html">Sécurité Electronique</a></li>
+                 <!-- <li><a class="selection2" href="#">Equipements Blindés</a></li> -->
+                  <li><a class="selection2" href="automatisme-acces.html">Automatisme des Accès</a></li> 
+          </ul> 
+        </li>
+        <li class="menu-item"><a href="equipement-individuel.html">Matériel de </br>protection individuel</a></li>
+        <li class="menu-item"><a href="ecole-formation.html">Une école de </br>formation</a></li>
+        <li class="menu-item"><a href="materiel-blinde.html">Matériels <br> Blindés </a></li>
+        <li class="menu-item"><a href="contact.php">Contact</a></li>
+      </ul>   
+    </nav>
+  </header>
+  
+  <script>
+      let menuToggle = document.querySelector('.menuToggle');
+      let header = document.querySelector('header');
+      menuToggle.onclick = function(){
+          header.classList.toggle('active');
+          // body...
+      }
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+      
+    <script src="js/slidea.js" defer></script>
+  
+    <div class="slide-conteneur">
+      <main class="mai">
+          <div class="diapo" data-speed="5000" data-transition="700">
+              <div class="elements">
+                  <div class="element">
+                      <img src="photoproduit/tradi7.jpg" alt="image">
+                      <div class="caption">
+                          <h2>Sécurité incendie <br> traditionnelle</h2>
+                          <p> SECURISYS-CI met à votre disposition <br>des produits d'incendie traditionnelle</p>
+                          <a href="securite-traditionneelle.html"> En savoir plus </a>
+                      </div>
+                  </div>
+                  <div class="element">
+                      <img src="photoproduit/autoa.jpg" alt="image">
+                      <div class="caption">
+                          <h2>Autmomatisme et contrôle <br>d'accès </h2>
+                          <p>Des systèmes de sécurité automatique <br>et contrôle d'accès </p>
+                          <a href="automatisme-acces.html"> En savoir plus </a>
+                      </div>
+  
+                  </div>
+                  <div class="element">
+                      <img src="photoproduit/automatic6.jpeg" alt="image">
+                      <div class="caption">
+                          <h2> Incendie automatique </h2>
+                          <p>Des produits de sécurité incendie <br>automatique disponible</p>
+                          <a href="securite-automatique.html"> En savoir plus </a>
+                      </div>
+                  </div>
+                  <div class="element">
+                      <img src="photoproduit/electro33.webp" alt="image">
+                      <div class="caption">
+                          <h2>Sécurité électronique </h2>
+                          <p>Des systèmes de sécurité électronique <br> Vidéo-surveillance</p>
+                          <a href="securite-electronique.html"> En savoir plus </a>
+                      </div>
+                  </div>
+                  <div class="element">
+                      <img src="photoproduit/blinde5.jpeg" alt="image">
+                      <div class="caption">
+                          <h2>Matériels Blindés</h2>
+                          <p>SECURISYS-CI met à la disposition de <br> tous du matériel blindé</p>
+                          <a href="materiel-blinde.html"> En savoir plus </a>
+                      </div>
+                  </div>
+                  <div class="element">
+                      <img src="photoproduit/coupefeu4.jpg" alt="image">
+                      <div class="caption">
+                          <h2>Structures Coupe-feu</h2>
+                          <p>Des structures de coupe-feu à votre <br> disposition sont disponible </p>
+                          <a href="coupe-feu.html"> En savoir plus </a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Flèches -->
+              <i id="nav-gauche" class="las la-chevron-left"></i>
+              <i id="nav-droite" class="las la-chevron-right"></i>
+          </div>
+      </main>
+  
+  <div class="conteneur2">
+  
+  <div class="newsletter">
+      <!-- script mailjet -->
+  
+  <script type="text/javascript" src="https://app.mailjet.com/pas-nc-pop-in-v1.js"></script> 
+  
+     <iframe  data-w-token="a3e98574d52de61439af" data-w-type="pop-in" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://smnp4.mjt.lu/wgt/smnp4/xsji/form?c=47f02cde" width="100%" style="height: 0; cursor: pointer;">
+     </iframe>
+     
+     <iframe  data-w-token="a3e98574d52de61439af" data-w-type="trigger" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://smnp4.mjt.lu/wgt/smnp4/xsji/trigger?c=ea9609d8" width="100%" style="height: 0; cursor: pointer;"> </iframe>
+  
+  <!-- fin script mailjet <a class="abone" href=""> Abonnez-vous</a>-->
+    </div>
+  
+  <div class="ban-container">
+      <div class="ban">
+          <div class="icon-social"> 
+              <a href="#"> <img src="image/facebook-icone.png" alt="facebook"></a>
+              <a href="#"> <img src="image/Youtube-Icon.png" alt="youtube"></a>
+              <a href="#"> <img src="image/instagram.jpeg" alt="instagram"></a>
+              <a href="#"> <img src="image/tiktok.png" alt="tiktok"></a>
+              <a href="#"> <img src="image/what.png" alt="whatsapp"></a>
+          </div>
+          <br>
+      <div class="cordonné">
+            <div class="ligne">
+              <img src="image/icon-email.png" alt="email">
+              <p>admin@securisys-ci.com</p>
+           </div>
+           <div class="ligne">
+             <img src="image/cel.png" alt="Cel">
+             <p>+225 27 22 53 35 72</p>
+           </div>
+            <div class="ligne">
+              <img src="image/cel.png" alt="Cel">
+              <p>+225 27 22 53 15 83</p>
+            </div>
+      </div>
+      <div class="menu-lateral"> 
+              <p><a href="contact.php">Nous écrire un mail</a></p> 
+              <p><a href="partenaire.html">Nos partenaires</a></p>
+              <p><a href="nous-confiance.html">Ils nous font confiance</a></p>
+              <p><a href="photo.html">Médiathèque</a></p>
+          </div>
+      </div>
+  </div>
+    <!--fin ban -->
+  </div>
+  <!--fin conteneur2 -->
+  </div>
+  <!--fin slide conteneur -->
+  
+  <div class="title-accueil">
+     <p class="animation"> Bienvenue sur notre site web officiel. SECURISYS-CI est à votre disposition.  </p>
+  </div>
+  
+    <div class="div1">
+  
+       <div class="card">
+      <img src="galerie/Le Service Nouveaux Travaux 1.jpg" alt=" photo" >
+      
+        <h4> <u>NOTRE SAVOIR FAIRE</u></h4>
+  <p> <li class="puce">La Sécurité Incendie; </li> </p>
+  <p> <li class="puce">La Sécurité Electronique (Contrôle d’Accès, Vidéo Surveillance, Anti-intrusion,…);</li></p>
+  <p><li class="puce">Les Equipements et matériels de protection individuelle; </li></p>
+  <p><li class="puce">Les Equipements blindés (Porte blindée, Coffre fort); </li></p>
+  <p><li class="puce">Les SAS et Porte coupe-feu; </li></p>
+  <p><li class="puce">La Ventilation et le Désenfumage; </li></p>
+  <p><li class="puce">La ferronnerie et les équipements blindés
+  Etc.</li>
+  </p>
+  
+      <a class="link" href="somme-nous.html">En savoir plus</a> 
+      
+    </div>
+  
+    <div class="card">
+      <img src="image/image-formation-incendie.jpg" alt=" photo" >
+      
+        <h4> <u>UNE ECOLE DE FORMATION</u></h4>
+        <p class="card-text">Pour permettre aux équipements de sécurités installées d’atteindre les objectifs fixés, une exploitation efficiente de ceux-ci s’impose. Dès lors, la formation des exploitants des systèmes ainsi mis en œuvre se présente comme une nécessité absolue.</p>
+      <br>
+      <br>
+        <a class="lien" href="ecole-formation.html">En savoir plus</a>
+      
+    </div>
+  
+    <div class="card">
+      <img src="photoSAV/Le service SAV automatisme 2.JPG" alt=" photo" >
+      
+        <h4> <u>UN SERVICE APRES VENTE</u></h4>
+        <p class="card-text">Notre responsabilité ne s’arrête pas après la vente et/ou l’installation des équipements.
+        Nous vous accompagnons dans le suivi régulier de ces équipements par des contrats de maintenance.</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a class="lien" href="apres-vente.html">En savoir plus</a> 
+      
+    </div>
+  
+   <div class="slider">
+  
+          <img src="photoproduit/tradi6.jpg" alt="img1" class="img__slider active" />
+          <img src="photoproduit/tradi5.jpg" alt="img2" class="img__slider" />
+          <img src="photoproduit/tradi1.png" alt="img3" class="img__slider" />
+          <video controls src="video/v1.mp4" alt="v1" class="img__slider" /> </video>
+          
+          
+         <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+      <a class="lien-video" href=""> En savoir plus</a>
+         <!-- Flèches -->
+              <i id="precedent" class="las la-chevron-left"></i>
+              <i id="suivant" class="las la-chevron-right"></i>
+      </div>
+      
+  </div>
+  
+  <!-- Inclusion du footer -->
+      <footer>
+          <div class="footer-col">
+              <h4> <u> Notre Position Géographique        </u></h4>
+           
+  <iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.067373330613!2d-3.9954467261046687!3d5.406708835135142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1951b01c67a65%3A0x60843c7c93affdf7!2sSECURISYS!5e0!3m2!1sfr!2sci!4v1732371176820!5m2!1sfr!2sci" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+          </div> 
+          <div class="footer-col">
+             <h4> <u>Notre  Slogan </u> &nbsp;</h4>
+             <p class="slogan"> « NOTRE ESPERTISE POUR <br><br> VOTRE SECURITE » </p>
+          </div>
+          <div class="footer-col">
+              <h4> <u>Réseaux  Sociaux</u> &nbsp;</h4>
+                  <div class="links">
+                  <a class="icon-reseau-sociaux" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="icon-reseau-sociaux" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="icon-reseau-sociaux" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="icon-reseau-sociaux" href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+              </div>
+          <div class="footer-col">
+              <h4> <u>S'abonner aux Newsletters </u></h4>
+             
+              <script type="text/javascript" src="https://app.mailjet.com/pas-nc-pop-in-v1.js"></script> 
+         <div class="abonefooter">
+  
+             <iframe  data-w-token="a3e98574d52de61439af" data-w-type="pop-in" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://smnp4.mjt.lu/wgt/smnp4/xsji/form?c=47f02cde" width="100%" style="height: 0;">
+              </iframe>
+     
+              <iframe  data-w-token="a3e98574d52de61439af" data-w-type="trigger" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://smnp4.mjt.lu/wgt/smnp4/xsji/trigger?c=ea9609d8" width="100%" style="height: 0;"> </iframe>
+           </div>
+            </div>  
+            
+           <hr class="line">
+          <p class="copy">&#169; Copyright 2024 Securisys-ci. Tous droit réservé.</p>
+                     
+      </footer> 
+</body>
+</html>
